@@ -1,0 +1,12 @@
+{
+    "posts": [
+        { "id": 1, "title": "json-server1", "text": "text1", "date": "date1", "author": "typicode1" },
+        { "id": 2, "title": "json-server2", "text": "text1", "date": "date1", "author": "typicode2" },
+        { "id": 3, "title": "json-server3", "text": "text1", "date": "date1", "author": "typicode3" },
+        { "id": 4, "title": "json-server4", "text": "text1", "date": "date1", "author": "typicode4" }
+    ],
+    "comments": [
+        { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+}
