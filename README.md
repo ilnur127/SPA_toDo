@@ -1,5 +1,10 @@
 # testspa
-
+```
+SPA для добавление постов, в проекте присутствуют роли: 
+•	Администратор может удалять, редактировать, создавать посты.
+•	Обычный авторизованный пользователь может создавать и редактировать только свои посты. Удалять свои посты он не может.
+•	Неавторизованный пользователь может только читать посты.
+```
 ## Project setup
 ```
 npm install
@@ -10,15 +15,7 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Run BD 
 ```
-npm run build
+В проекте используется firebase, поэтому запускать bd через консоль не нужно.
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
