@@ -34,9 +34,20 @@ export default {
       -ms-flex-align: center;
       align-items: center;
       padding-top: 5rem;
+      height: 100vh;
   }
   .grey {
     background-color: #757575 !important;
+  }
+  .notFound {
+    text-align: center;
+  }
+  .notFound img {
+    height: 300px;
+  }
+  .notFound__text {
+    font-size: 50px;
+    font-style: italic;
   }
   .card {
     position: relative;

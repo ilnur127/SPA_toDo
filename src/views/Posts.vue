@@ -32,7 +32,7 @@
                     <td>{{indx + 1}}</td>
                     <td>{{post.title}}</td>
                     <td>{{post.smallText}}</td>
-                    <td>{{post.date}}</td>
+                    <td>{{post.date | date('datetime')}}</td>
                     <td>{{post.author}}</td>
                     <td>
                         <button

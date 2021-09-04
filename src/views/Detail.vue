@@ -21,7 +21,7 @@
                 <p><strong>Описание:</strong> {{post.bigText}}</p>
                 <p><strong>Автор:</strong> {{post.author}}</p>
 
-                <small>Дата изменения: {{post.date}}</small>
+                <small>Дата изменения: {{post.date | date('datetime')}}</small>
             </div>
             <div style="display: flex;flex-direction: column;justify-content: space-evenly;">
               <button

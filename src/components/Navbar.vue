@@ -31,7 +31,6 @@ export default {
     }
   },
   mounted () {
-    console.dir(this.$route)
   },
   methods: {
     async logout () {
